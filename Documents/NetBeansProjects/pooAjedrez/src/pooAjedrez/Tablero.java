@@ -213,6 +213,9 @@ public class Tablero {
                     }
             }
         }
+        else{
+             tienesPieza = true;
+        }
         return tienesPieza;
     }
 }
