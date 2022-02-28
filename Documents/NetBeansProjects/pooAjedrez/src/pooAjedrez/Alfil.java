@@ -15,9 +15,9 @@ public class Alfil extends Pieza{
         super(color);
     }
     
-    public boolean validoMovimiento(Movimiento mov, Tablero miTablero){
+    public boolean validoMovimiento(Movimiento movi, Tablero miTablero){
         boolean miMovimiento = false;       
-        if(mov.isDiagonal()==true){
+        if(movi.isDiagonal()==true){
             miMovimiento = true;
         }
         return miMovimiento;
